@@ -9,3 +9,4 @@ $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('MSOM-
 $response = $bot->pushMessage($idPush, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
+?>
