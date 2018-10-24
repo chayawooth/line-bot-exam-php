@@ -45,7 +45,8 @@ if (!is_null($events['events'])) {
 			curl_close($ch);
 
 			echo $result . "\r\n";
+			echo "It Work ja Chayawooth!!! \r\n";
 		}
 	}
 }
-echo "It Work ja Chayawooth!!!";
+echo "It Not Work ja ";
