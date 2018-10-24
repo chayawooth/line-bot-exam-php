@@ -50,4 +50,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo "It Not Work ja ";
+echo "OK:{200}";
